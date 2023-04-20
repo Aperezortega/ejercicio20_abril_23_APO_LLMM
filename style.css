@@ -1,0 +1,30 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2vw; 
+    margin: 2vh; 
+    height: 96vh; 
+    width: 96vw; 
+}
+
+
+.grid{
+    border: 0.5vw solid black; 
+    display: flex;
+    padding: 2vh; 
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%; 
+    background-color: #007bff; 
+    width: auto;
+    height: 90%;
+    aspect-ratio: 1/1;
+}
